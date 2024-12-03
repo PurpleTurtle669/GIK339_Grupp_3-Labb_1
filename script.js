@@ -1,0 +1,1 @@
+//get HTML elements with different types of functions i.e. getElementById, -Class, loop-selection, querySelector(?)
