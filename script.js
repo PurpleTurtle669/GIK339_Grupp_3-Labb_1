@@ -9,7 +9,7 @@ console.log(textFields)
 const button = document.getElementsByTagName('button')[0]; //HTML Collection
 console.log(button);
 
-const emptyDiv = document.getElementById('empty-div'); //HTML Collection
+const emptyDiv = document.getElementById('empty-div'); //HTML Element
 console.log(emptyDiv);
 
 // A fuction that works when user leaves outside the textFields
