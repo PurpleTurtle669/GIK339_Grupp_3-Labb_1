@@ -1,7 +1,7 @@
 //get HTML elements with different types of functions i.e. getElementById, -Class, loop-selection, querySelector(?)
 
 // [0] gets the first checkbox element
-const checkbox = document.getElementsByName('divStyle')[0]; //HTML Collection
+const checkbox = document.getElementsByName('divStyle')[0]; //NodeList
 console.log(checkbox);
 
 const textFields = document.querySelectorAll('.textfield'); //Nodelist
