@@ -1,7 +1,7 @@
 //get HTML elements with different types of functions i.e. getElementById, -Class, loop-selection, querySelector(?)
 
 // [0] gets the first checkbox element
-const checkbox = document.getElementsByName('divStyle')[0]; //Nodelist
+const checkbox = document.getElementsByName('divStyle')[0]; //HTML Collection
 console.log(checkbox);
 
 const textFields = document.querySelectorAll('.textfield'); //Nodelist
@@ -11,7 +11,7 @@ console.log(textFields)
 const button = document.getElementsByTagName('button')[0]; //HTML Collection
 console.log(button);
 
-const emptyDiv = document.getElementById('empty-div');
+const emptyDiv = document.getElementById('empty-div'); //HTML Collection
 console.log(emptyDiv);
 
 // A fuction that works when user leaves outside the textFields
